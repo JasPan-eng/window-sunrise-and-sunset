@@ -1,0 +1,35 @@
+
+
+
+#Window {
+  border-radius: 55px;
+  background: linear-gradient(-45deg, #0D1832, #34495E, #1C2833, #F5CBA7, #E59866, #DC7633, #E67E22 );
+  background-size: 600% 600%;
+  animation: gradient 40s ease infinite;
+  width: 200px;
+  height: 600px;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  margin-top: 150px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+
+h1 {
+  text-align: center;
+  font-size: 500px;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  color: black;
+}
